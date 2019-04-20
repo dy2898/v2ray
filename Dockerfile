@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV ID="e92d4093-dbe9-4d6a-b615-e4971ee62fac"  VER=4.18
+ENV ID="e92d4093-dbe9-4d6a-b615-e4971ee62fac"  VER=4.18.0
 
 ADD entrypoint.sh /entrypoint.sh
 ADD config.json /etc/
